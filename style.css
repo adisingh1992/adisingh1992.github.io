@@ -18,7 +18,12 @@ body{
     margin: auto;
     background-color: #F5F3F3;
     color: #332F2F;
-    display: none;
+    animation: fadeIn 2s ease-in 1;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .col-100{
