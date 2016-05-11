@@ -78,6 +78,9 @@
                     <p>June 2013 - June 2016</p>
                     <p class="sub-para">Completed Bachelor's degree in Computer Applications (B.C.A.) from <span>Indira Gandhi National Open University</span>.</p>
                 </div>
+{% for repository in site.github.public_repositories %}
+  * {{ repository.name }}
+{% endfor %}
             </div>
         </div>
     </body>
