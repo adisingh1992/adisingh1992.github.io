@@ -19,6 +19,7 @@ body{
     background-color: #F5F3F3;
     color: #332F2F;
     animation: fadeIn 2s ease-in 1;
+    box-shadow: 3px 3px 5px #C9C5C2;
 }
 
 @keyframes fadeIn{
@@ -118,4 +119,20 @@ a{
 
 span{
     font-weight: bold;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rokkitt'), local('Rokkitt-Regular'), url(http://fonts.gstatic.com/s/rokkitt/v10/Uu8b3yBtxQPmPTMr0WQ_CA.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rokkitt Bold'), local('Rokkitt-Bold'), url(http://fonts.gstatic.com/s/rokkitt/v10/Mef17w3J4CtS0lw4Wa_8r_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
 }
