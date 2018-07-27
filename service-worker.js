@@ -7,7 +7,8 @@ var filesToCache = [
   '/img/profile-pic.jpg',
   '/img/favicon.ico',
   '/font1.woff2',
-  '/font2.woff2'
+  '/font2.woff2',
+  '/manifest.json'
 ];
 
 self.addEventListener('install', function(e) {
