@@ -127,6 +127,7 @@ span{
   font-style: normal;
   font-weight: 400;
   src: local('Rokkitt'), local('Rokkitt-Regular'), url('/font1.woff2') format('woff2');
+  font-display: swap;
 }
 
 /* latin */
@@ -135,4 +136,5 @@ span{
   font-style: normal;
   font-weight: 700;
   src: local('Rokkitt Bold'), local('Rokkitt-Bold'), url('/font2.woff2') format('woff2');
+  font-display: swap;
 }
