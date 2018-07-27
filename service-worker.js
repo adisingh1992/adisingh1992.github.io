@@ -7,7 +7,7 @@ var filesToCache = [
   '/img/profile-pic.jpg',
   '/img/favicon.ico',
   '/font1.woff2',
-  '/font2.woff2'.
+  '/font2.woff2',
   'https://raw.githubusercontent.com/adisingh1992/adisingh1992.github.io/master/Resume.pdf'
 ];
 
