@@ -27,3 +27,9 @@ function resize_large(){
     headerDiv.className = "col-50";
     headerDiv.style.textAlign = "left";
 }
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js');
+  });
+}
