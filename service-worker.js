@@ -5,7 +5,9 @@ var filesToCache = [
   '/functions.js',
   '/style.css',
   '/img/profile-pic.jpg',
-  '/img/favicon.ico'
+  '/img/favicon.ico',
+  '/font1.woff2',
+  '/font2.woff2'
 ];
 
 self.addEventListener('install', function(e) {
