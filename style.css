@@ -126,7 +126,7 @@ span{
   font-family: 'Rokkitt';
   font-style: normal;
   font-weight: 400;
-  src: local('Rokkitt'), local('Rokkitt-Regular'), url(https://fonts.gstatic.com/s/rokkitt/v10/Uu8b3yBtxQPmPTMr0WQ_CA.woff2) format('woff2');
+  src: local('Rokkitt'), local('Rokkitt-Regular'), url('/font1.woff2') format('woff2');
 }
 
 /* latin */
@@ -134,5 +134,5 @@ span{
   font-family: 'Rokkitt';
   font-style: normal;
   font-weight: 700;
-  src: local('Rokkitt Bold'), local('Rokkitt-Bold'), url(https://fonts.gstatic.com/s/rokkitt/v10/Mef17w3J4CtS0lw4Wa_8r_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  src: local('Rokkitt Bold'), local('Rokkitt-Bold'), url('/font2.woff2') format('woff2');
 }
