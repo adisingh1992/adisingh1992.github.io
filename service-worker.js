@@ -1,7 +1,6 @@
 var cacheName = 'adisingh1992-resume';
 var filesToCache = [
   '/',
-  '/index.html',
   '/functions.js',
   '/style.css',
   '/img/profile-pic.jpg',
