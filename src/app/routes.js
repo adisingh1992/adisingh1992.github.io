@@ -10,6 +10,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { TermsAndConditions } from "../pages/terms";
 import { CancellationAndRefund } from "../pages/refund";
 import { PrivacyPolicy } from "../pages/privacy";
+import { Services } from "../pages/services";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -27,6 +28,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/refund" element={<CancellationAndRefund />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
