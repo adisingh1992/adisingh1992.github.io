@@ -138,6 +138,8 @@ const contactConfig = {
     YOUR_EMAIL: "adi.singh1992@gmail.com",
     YOUR_FONE: "+91-9044872133",
     description: "Go on, smash the send button!",
+    address: "C-111, Raja Ji Puram - 226017",
+    location: "Lucknow - Uttar Pradesh, India",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_o8uc4tp",

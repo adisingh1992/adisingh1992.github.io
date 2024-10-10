@@ -109,6 +109,11 @@ export const ContactUs = () => {
               )}
             </address>
             <p>{contactConfig.description}</p>
+
+            <h3 className="color_sec py-4">Address</h3>
+
+            <p>{contactConfig.address}</p>
+            <p>{contactConfig.location}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
