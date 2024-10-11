@@ -4,6 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export const Services = () => {
+    const gotoPayment = () => {
+        const newWindow = window.open('https://razorpay.me/@webflaredesigns', '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
+
     return (
         <HelmetProvider>
             <Container>
@@ -243,7 +248,9 @@ export const Services = () => {
 
                             <p>Pay a mere <strong>₹2100</strong> and turn your idea into a product!</p>
 
-                            <button className="btn pay-btn">Pay now</button>
+                            <button className="btn pay-btn" onClick={() => gotoPayment()}>
+                                Pay now
+                            </button>
                         </div>
                     </Col>
                 </Row>
